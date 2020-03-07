@@ -14,9 +14,9 @@ describe('Calculadora', () => {
         })
         it('Deberia sumar dos numeros', () => {
             expect(calculadora.sumar(2, 2)).to.equal(4)
-            expect(calculadora.sumar(50, 40)).to.equal(89)
+            expect(calculadora.sumar(50, 39)).to.equal(89)
             expect(calculadora.sumar(-31, 32)).to.equal(1)
-            expect(calculadora.sumar(10000, 99999)).to.equal(99999)
+            expect(calculadora.sumar(10000, 89999)).to.equal(99999)
         })
     })
 
